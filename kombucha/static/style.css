@@ -1,0 +1,15 @@
+#websiteTitle {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: x-large;
+}
+
+.sizeSmallText {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: x-large;
+}
+
+#form-control-inline {
+  min-width: 0;
+  width: auto;
+  display: inline;
+}
