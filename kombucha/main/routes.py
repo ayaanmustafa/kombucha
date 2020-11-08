@@ -15,7 +15,7 @@ def home():
     entry = Entry.query.order_by(Entry.ident.desc())
     return render_template('home.html', entrys=entry)
 
-@main.route("/about")~
+@main.route("/about")
 def about():
     return render_template('about.html', title='About')
 
